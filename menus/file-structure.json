@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle file-structure",
+        "command": "file-structure:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "file-structure",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "file-structure:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
