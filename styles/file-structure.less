@@ -10,26 +10,30 @@
 
 .file-structure-tree-container {
     display: block;
-    background: #dddddd;
+    background: @tool-panel-background-color;
     height: 100%;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     overflow-y: scroll;
     width: 256px;
 }
 
+.file-structure-tree-header {
+    background: @tool-panel-background-color;
+    color: @text-color-highlight;
+    display: block;
+    padding-bottom: 4px !important;
+    padding-top: 4px !important;
+    margin-bottom: 8px !important;
+    text-align: center;
+    width: 100%;
+}
+
 .file-structure-symbol {
     display: block;
-    background: whitesmoke;
     width: 100%;
 }
 
 .file-structure-symbol-content {
-    border-bottom: 1px !important;
-    border-color: rgba(0, 0, 0, .34) !important;
-    border-left: 0px;
-    border-right: 0px;
-    border-style: solid !important;
-    border-top: 0px !important;
     display: block;
     margin-bottom: 1px;
     padding-bottom: 4px !important;
@@ -38,7 +42,17 @@
 }
 
 .file-structure-symbol-text {
-    color: black;
+    color: @text-color;
     font-family: @font-family;
-    font-size: 14px;
+    font-size: @font-size;
+    vertical-align: top;
+}
+
+.collapsed {
+    display: none;
+}
+
+.expand-collapse {
+  display: inline-block;
+  transform: scale(.75, .75);
 }
