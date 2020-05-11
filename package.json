@@ -1,7 +1,7 @@
 {
   "name": "file-structure",
   "main": "./lib/file-structure",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Schematic structure of your code",
   "keywords": [],
   "activationCommands": {
