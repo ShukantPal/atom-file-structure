@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "file-structure:toggle"
   },
-  "repository": "https://github.com/atom/file-structure",
+  "repository": "https://github.com/SukantPal/atom-file-structure",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -22,6 +22,7 @@
   "dependencies": {
     "@babel/parser": "^7.9.6",
     "@babel/traverse": "^7.9.6",
+    "@babel/types": "^7.9.6",
     "etch": "^0.14.0"
   },
   "activationHooks": [

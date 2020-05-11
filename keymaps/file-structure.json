@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "file-structure:toggle"
+    "ctrl-alt-f": "file-structure:toggle"
   }
 }
