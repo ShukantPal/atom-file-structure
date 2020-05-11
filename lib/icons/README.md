@@ -1,6 +1,6 @@
 # Resources
 
-This directory uses icons from [vs-code-outline]{https://github.com/patrys/vscode-code-outline}
+This directory uses icons from [vs-code-outline]{https://github.com/patrys/vscode-code-outline }
 
 <p>
 MIT License
