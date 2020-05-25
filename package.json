@@ -37,6 +37,11 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "flow-bin": "^0.125.1"
+  },
+  "scripts": {
+    "lint": "eslint ./lib",
+    "type-check": "flow"
   }
 }
