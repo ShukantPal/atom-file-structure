@@ -1,4 +1,5 @@
 a = 5
+d = [a]
 
 def func1():
     b = 2
