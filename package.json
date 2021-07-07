@@ -7,7 +7,10 @@
   "activationCommands": {
     "atom-workspace": "file-structure:toggle"
   },
-  "repository": "https://github.com/SukantPal/atom-file-structure",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SukantPal/atom-file-structure.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -20,10 +23,15 @@
     }
   },
   "dependencies": {
+    "@babel/core": "^7.9.6",
     "@babel/parser": "^7.9.6",
     "@babel/traverse": "^7.9.6",
     "@babel/types": "^7.9.6",
-    "etch": "^0.14.0"
+    "acorn": "^7.2.0",
+    "acorn-walk": "^7.1.1",
+    "etch": "^0.14.0",
+    "filbert": "^0.1.20",
+    "gensync": "^1.0.0-beta.1"
   },
   "activationHooks": [
     "core:loaded-shell-environment"
@@ -37,11 +45,18 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "flow-bin": "^0.125.1"
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/SukantPal/atom-file-structure/issues"
+  },
+  "homepage": "https://github.com/SukantPal/atom-file-structure#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint ./lib",
-    "type-check": "flow"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
